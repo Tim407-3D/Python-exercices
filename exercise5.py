@@ -38,4 +38,4 @@ while True:
 
 
 for person in history:
-    print(f"Name: {person['Name']}, Age: {person['Age']}, Salary: ${person['Salary']}")
+    print(f"Name: {person['Name']}\n Age: {person['Age']}\n Salary: ${person['Salary']}\n")

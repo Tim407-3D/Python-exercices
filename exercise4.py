@@ -5,6 +5,6 @@ data = [
     {"Name": "David", "Age": 28, "Salary": 48000}
 ]
 
-print([person["Name"] for person in data if person["Salary"] >= 45000],[person["Salary"] for person in data if person["Salary"] > 45000]) 
+print(f"{[person["Name"] for person in data if person["Salary"] >= 45000]}", f"{[person["Salary"] for person in data if person["Salary"] > 45000]}") 
 
 
