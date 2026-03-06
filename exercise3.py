@@ -13,6 +13,4 @@ min_salary = min([person["Salary"] for person in data])
 for person in data:
     print(person ["Name"], person ["Age"], person ["Salary"])
 
-print("Average age:", avg_age)
-print("Max salary:", max_salary)
-print("Min salary:", min_salary)
+print("Average age:", avg_age, "Max salary:", max_salary, "Min salary:", min_salary)
