@@ -5,8 +5,6 @@ data = [
     {"Name": "David", "Age": 28, "Salary": 48000}
 ]
 
-uptosalary= ([person["Salary"] for person in data if person["Salary"] > 45000]) 
-for person in data:
-    if person["Salary"] >= 45000:
-        print(person["Name"], person["Salary"])
+print([person["Name"] for person in data if person["Salary"] >= 45000], [person["Salary"] for person in data if person["Salary"] >= 45000]) 
+
 
