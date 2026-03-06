@@ -7,6 +7,6 @@ data = [
 
 uptosalary= ([person["Salary"] for person in data if person["Salary"] > 45000]) 
 for person in data:
-    if person["Salary"] > 45000:
+    if person["Salary"] >= 45000:
         print(person["Name"], person["Salary"])
 
