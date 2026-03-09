@@ -1,0 +1,5 @@
+lista=input("Introduceti un sir: ")
+print("Lungimea sirului este: " + str(format(len(lista))))
+print(f"Lungimea sirului este: {len(lista)}")
+print("Lungimea sirului este: " + str(len(lista)))
+print("Lungimea sirului este:",len(lista))

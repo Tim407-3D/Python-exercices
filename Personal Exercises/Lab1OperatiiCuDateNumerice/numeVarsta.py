@@ -17,4 +17,5 @@ def addPersoane():
     print(f"Ceau {numeNou} Deci te-ai nascut in {anNastere}")
     return anNastere
 
-print(addPersoane())
+orice = addPersoane()
+print(orice)
