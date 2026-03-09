@@ -19,6 +19,7 @@ def updateData(arie):
 
     arie=1/2* newBase*newHeigth
     result=arie
-
+    Print(result)
+    return result
 
 
