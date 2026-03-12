@@ -37,6 +37,7 @@
 
 string1="/-\\"
 string2="//-\\\\"
-string3="--------"
+string3="-------"
 #Create an output variable that you can use in order to print the strings centered
-output=""
+output = f"{string1.center(24)}\n{string2.center(24)}\n{string3.center(24)}\n{string2[::-1].center(24)}\n{string1[::-1].center(24)}\n"
+print(output)
