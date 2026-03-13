@@ -1,4 +1,4 @@
-import datetime as date
+from datetime import datetime as date      
 # print(date.datetime.now())
 cnp=input("Enter your CNP(7 cifre): ")
 cnp_an=int(cnp[1:3])
@@ -16,7 +16,7 @@ else:
     exit()
 
 birth_date= cnp_gender
-today= date.datetime.now().year
+today= date.now().year
 age= today - birth_date
 print(age)
 
